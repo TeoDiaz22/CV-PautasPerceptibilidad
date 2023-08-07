@@ -15,31 +15,25 @@
     .bg-head{
         background-color: #AECFB0;
     }
-    .head-size{
-        padding: 0.75% 10%;
-    }
-    .body-size{
+    .size{
         padding: 0.75% 10%;
     }
     body{
         margin: 0% 25%;
     }
-    .list{
-
-    }
 </style>
-<body class="">
-    <div class="row bg-head  head-size border border-black rounded" >
-        <div class="row my-3 text-center">
-            <h1>Mateo Alejandro Díaz Pazmiño</h1>
-            <h2>Estudiante de Ingenieria en Software</h2>
+<body class="container">
+    <div class="row bg-head size border border-black rounded" >
+        <div  class="row my-3 text-center">
+            <h1 tabindex="1">Mateo Alejandro Díaz Pazmiño</h1>
+            <h2 tabindex="2">Estudiante de Ingenieria en Software</h2>
         </div>
         <div class="row-3 my-3 text-center">  
-            <img class="img" src="resources/20230720_141424.jpg" alt="Fotografia de Mateo Díaz">
+            <img tabindex="3" class="img" src="resources/20230720_141424.jpg" alt="Fotografia de Mateo Díaz en el campus de la Escuela Politécnica Nacional">
         </div>
         <div class="row my-3">
-            <h2>Datos Personales</h2>
-            <p>
+            <h2 tabindex="4">Datos Personales</h2>
+            <p tabindex="5">
                 <strong>Fecha de nacimiento:</strong> 08-04-2001 <br>
                 <strong>Nacionalidad:</strong> Ecuatoriano <br>
                 <strong>Correo electrónico:</strong> diazmateo.2001@gmail.com <br>
@@ -48,36 +42,42 @@
             </p>
         </div>
     </div>
-    <div class="row body-size my-3 border border-black rounded">
-        <h2 class="p-0">Educación</h2>
+    <div class="row size my-3 border border-black rounded">
+        <h2 tabindex="6" class="p-0">Educación</h2>
         <table class="table table-sm">
-            <tr>
+            <tr tabindex="7">
                 <th>Título o nivel</th>
                 <th>Institución</th>
                 <th>Periodo</th>
             </tr>
-            <tr>
+            <tr tabindex="8">
                 <td>Ingeniería en Software</td>
                 <td>Escuela Politécnica Nacional</td>
                 <td>2019 - presente</td>
             </tr>
-            <tr>
+            <tr tabindex="9">
                 <td>Bachiller en Ciencias</td>
                 <td>Unidad educativa San Francisco del Alvernia</td>
                 <td>2013 - 2019</td>
             </tr>
         </table>
     </div>
-    <div class="row body-size my-3 border border-black rounded">
-        <h2 class="p-0">Referencias Personales</h2>
+    <div class="row size my-3 border border-black rounded">
+        <h2 tabindex="10" class="p-0">Referencias Personales</h2>
         <ul class="list-group">
-            <li class="list-group list-group-item"><strong>PhD. Lorena Recalde</strong>  Docente investigadora Escuela Politécnica Nacional</li>
-            <li class="list-group list-group-item"><strong>PhD. Lorena Recalde</strong>  Docente investigadora Escuela Politécnica Nacional</li>
+            <li tabindex="11" class="list-group list-group-item">
+                <strong>PhD. Lorena Recalde</strong>  Docente investigadora Escuela Politécnica Nacional <br>
+                <strong>Teléfono: </strong> +593 96 891 4851 
+            </li>
+            <li tabindex="12" class="list-group list-group-item">
+                <strong>PhD. Tania Calle</strong>  Profesora Titular <br>
+                <strong>Teléfono: </strong> +593 98 342 6607
+            </li>
         </ul>
     </div>
-    <div class="row body-size my-3 border border-black rounded">
-        <h2 class="p-0">Video Presentacion</h2>
-        </ul>
+    <div class="row size my-3 border border-black rounded">
+        <h2 tabindex="13" class="p-0">Video Presentacion</h2>
+        <iframe tabindex="14" width="560" height="400" src="https://www.youtube.com/embed/WCtTOHeGi2o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
